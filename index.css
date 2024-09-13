@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border-style: none;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.fm{
+    height:40px;
+    display:flex;
+    flex-direction:column;
+    width: fit-content;
+    height:30vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.ip{
+    height: 20%;
+     background: transparent;
+    color:aliceblue;
+    border:1px solid;
+    width:100%;
+    
+}
+.col{
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: flex-start;
+    display: flex;
+    flex-direction:column;
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 10px;
+ }
+ .head
+ {
+    width:100%;
+    text-align:center;
+    
+    
+ }
+.ip::placeholder{
+    text-align: center;
+    color:aliceblue
+}
+.fm button{
+    width: 50%;
+    background: transparent;
+    border:1px solid 
+
+}
